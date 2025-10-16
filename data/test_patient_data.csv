@@ -1,0 +1,5 @@
+patient_id,name,nhs_number,email,postcode,diagnosis,treatment,notes
+001,John Smith,123-456-7890,john.smith@email.com,SW1A 1AA,Diabetes Type 2,Metformin 500mg,Regular checkups needed
+002,Jane Doe,987-654-3210,jane.doe@gmail.com,E1 6AN,Hypertension,Lisinopril,Blood pressure 140/90
+003,Bob Johnson,456-789-0123,bob@test.com,NW1 4NP,Depression,Therapy sessions,Improving with treatment
+004,Alice Brown,321-654-9870,alice.b@nhs.net,SE1 9SG,Asthma,Inhaler prescribed,Emergency contact: 07700900123

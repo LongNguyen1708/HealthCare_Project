@@ -1,0 +1,5 @@
+patient_id,condition,treatment,status
+P001,Diabetes,Medication,Stable
+P002,Hypertension,Medication,Monitoring
+P003,Depression,Therapy,Improving
+P004,Asthma,Inhaler,Controlled
