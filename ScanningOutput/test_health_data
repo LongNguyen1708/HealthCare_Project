@@ -1,0 +1,24 @@
+
+ Scanning for Personal Identifiable Information (PII)...
+ No PII found!
+
+==================================================
+
+ Scanning for Health Data...
+  Health data found in columns: patient_id, condition, treatment
+ This data requires Article 9 GDPR protection!
+
+==================================================
+
+ Compliance Summary:
+- Total rows scanned: 4
+- Columns with PII: 0
+- Columns with health data: 3
+
+==================================================
+
+ Example Findings:
+
+Example from Row 0:
+  condition: Diabetes → Health Data
+  treatment: Medication → Health Data

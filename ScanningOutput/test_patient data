@@ -1,0 +1,57 @@
+Rows: 4, Columns: 8
+Columns: patient_id, name, nhs_number, email, postcode, diagnosis, treatment, notes
+
+==================================================
+
+ Scanning for Personal Identifiable Information (PII)...
+  Column 'nhs_number' contains PII
+  Column 'email' contains PII
+  Column 'postcode' contains PII
+  Column 'notes' contains PII
+
+ PII found in 4 columns:
+
+  Column: nhs_number
+    Row 0: ['nhs_number']
+    Row 1: ['nhs_number']
+
+  Column: email
+    Row 0: ['email']
+    Row 1: ['email']
+
+  Column: postcode
+    Row 0: ['postcode']
+    Row 1: ['postcode']
+
+  Column: notes
+    Row 3: ['nhs_number', 'phone']
+
+==================================================
+
+ Scanning for Health Data...
+ Health data found in columns: patient_id, diagnosis, treatment, notes
+ This data requires Article 9 GDPR protection!
+
+==================================================
+
+ Compliance Summary:
+- Total rows scanned: 4
+- Columns with PII: 4
+- Columns with health data: 4
+
+⚠️  HIGH RISK: File contains both PII and health data!
+Recommendations:
+1. Encrypt this file immediately
+2. Implement access controls
+3. Consider data minimization
+4. Ensure consent documentation exists
+
+==================================================
+
+ Example Findings:
+
+Example from Row 0:
+  nhs_number: 123-456-7890 → PII: ['nhs_number']
+  email: john.smith@email.com → PII: ['email']
+  postcode: SW1A 1AA → PII: ['postcode']
+  diagnosis: Diabetes Type 2 → Health Data
